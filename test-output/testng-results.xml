@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-23T19:56:37 EST" name="Suite" finished-at="2022-02-23T19:57:00 EST" duration-ms="22938">
+    <groups>
+    </groups>
+    <test started-at="2022-02-23T19:56:37 EST" name="Test" finished-at="2022-02-23T19:57:00 EST" duration-ms="22938">
+      <class name="PathFactory.PathFactory.AutomationPractice">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:PathFactory.PathFactory.AutomationPractice@69e1dd28]" started-at="2022-02-23T19:56:37 EST" name="launchUrl" finished-at="2022-02-23T19:56:44 EST" duration-ms="7430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="verifyLandingPageTest()[pri:1, instance:PathFactory.PathFactory.AutomationPractice@69e1dd28]" started-at="2022-02-23T19:56:44 EST" name="verifyLandingPageTest" finished-at="2022-02-23T19:56:44 EST" duration-ms="26" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [My Store123] but found [My Store]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [My Store123] but found [My Store]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at PathFactory.PathFactory.AutomationPractice.verifyLandingPageTest(AutomationPractice.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLandingPageTest -->
+        <test-method signature="verifyEmptyStateErrorTest()[pri:2, instance:PathFactory.PathFactory.AutomationPractice@69e1dd28]" started-at="2022-02-23T19:56:44 EST" name="verifyEmptyStateErrorTest" finished-at="2022-02-23T19:56:48 EST" duration-ms="3164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyStateErrorTest -->
+        <test-method signature="verifyIncorrectPasswordErrorTest()[pri:3, instance:PathFactory.PathFactory.AutomationPractice@69e1dd28]" started-at="2022-02-23T19:56:48 EST" name="verifyIncorrectPasswordErrorTest" finished-at="2022-02-23T19:56:49 EST" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectPasswordErrorTest -->
+        <test-method signature="verifyIncorrectEmailErrorTest()[pri:4, instance:PathFactory.PathFactory.AutomationPractice@69e1dd28]" started-at="2022-02-23T19:56:49 EST" name="verifyIncorrectEmailErrorTest" finished-at="2022-02-23T19:56:50 EST" duration-ms="1528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectEmailErrorTest -->
+        <test-method signature="verifyForgotPasswordLinkTest()[pri:5, instance:PathFactory.PathFactory.AutomationPractice@69e1dd28]" started-at="2022-02-23T19:56:50 EST" name="verifyForgotPasswordLinkTest" finished-at="2022-02-23T19:56:58 EST" duration-ms="7396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLinkTest -->
+        <test-method signature="verifyLoginSuccess()[pri:6, instance:PathFactory.PathFactory.AutomationPractice@69e1dd28]" started-at="2022-02-23T19:56:58 EST" name="verifyLoginSuccess" finished-at="2022-02-23T19:56:59 EST" duration-ms="1710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PathFactory.PathFactory.AutomationPractice@69e1dd28]" started-at="2022-02-23T19:56:59 EST" name="tearDown" finished-at="2022-02-23T19:57:00 EST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PathFactory.PathFactory.AutomationPractice -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
